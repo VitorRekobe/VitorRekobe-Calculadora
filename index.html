@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="logo.png" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="Principal">
+        <div class="engloba">
+            <span id="formula"></span>
+            <p>&#160;</p>
+            <span class="resposta" id="resposta"></span>
+        </div>
+        <br>
+        <br>
+        <div class="numeros">
+
+            <input translate="no" id="nove" class="number" type="button" value="9" onclick="printa('9')">
+            <input translate="no" id="oito" class="number" type="button" value="8" onclick="printa('8')">
+            <input translate="no" id="sete" class="number" type="button" value="7" onclick="printa('7')">
+            <input translate="no" id="seis" class="number" type="button" value="6" onclick="printa('6')">
+            <input translate="no" id="cinco" class="number" type="button" value="5" onclick="printa('5')">
+            <input translate="no" id="quatro" class="number" type="button" value="4" onclick="printa('4')">
+            <input translate="no" id="tres" class="number" type="button" value="3" onclick="printa('3')">
+            <input translate="no" id="dois" class="number" type="button" value="2" onclick="printa('2')">
+            <input translate="no" id="um" class="number" type="button" value="1" onclick="printa('1')">
+            <input translate="no" id="zero" class="number" type="button" value="0" onclick="printa('0')">
+            <input translate="no" id="vir" class="number" type="button" value="," onclick="printa('.')">
+            <input translate="no" id="mais" class="number" type="button" value="+" onclick="printa(' + ')">
+            <input translate="no" id="menos" class="number" type="button" value="-" onclick="printa(' - ')">
+            <input translate="no" id="div" class="number" type="button" value="/" onclick="printa(' / ')">
+            <input translate="no" id="mult" class="number" type="button" value="x" onclick="printa(' * ')">
+            <input translate="no" id="igual" class="number" type="button" value="=" onclick="calcula()">
+            <input translate="no" id="del" class="number" type="button" value="DEL" onclick="apaga()">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
