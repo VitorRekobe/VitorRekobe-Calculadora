@@ -47,6 +47,7 @@ span {
     border: none;
     cursor: pointer;
     background-color: white;
+    font-size: 20px;
 }
 
 .number:hover {
@@ -55,13 +56,23 @@ span {
     box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
 }
 
-@media (width:1600px){
+#igual {
+    grid-row-start: 5;
+    grid-row-end: 7;
+    grid-column-start: 3; 
+    grid-column-end: 4;
+    height: 100px;
+    font-size: 40px;
+}
+
+@media (min-width:1600px){
     input {
         font-size: 25px;
     }
+}
 
-    .numeros {
-        grid: auto-flow dense / minmax(40px, 150px) minmax(40px, 150px) minmax(40px, 350px);
+@media (max-width:500px){
+    .number {
+        font-size: 15px;
     }
-
 }
