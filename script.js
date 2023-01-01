@@ -47,7 +47,7 @@ function calcula() {
             }
             numero[x + 1] = resultado;
         }
-        document.getElementById("resposta").innerText = resultado;
+        document.getElementById("formula").innerText = resultado;
     }
 }
 
@@ -58,6 +58,5 @@ function apaga() {
     numTemp = '';
     resultado = '';
     document.getElementById("formula").innerHTML = expressao;
-    document.getElementById("resposta").innerHTML = expressao;
 }
 
