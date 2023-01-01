@@ -16,17 +16,21 @@ body {
     max-width: 500px;
     margin: auto;
     background-color: white;
-    border-radius: 20px;
-    height: 10%;
+    height: 10vh;
     max-height: 90px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
+    font-size: 30px;
+    border-radius: 10px;
 }
 
-span {
-    font-size: 25px;
+#formula{
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 5px;
 }
 
 .numeros {
